@@ -361,3 +361,10 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+./input.txt
+./LR_Generate.txt
+./QUATERNARY_LIST.txt
+/input.txt
+/LR_Generate.txt
+/QUATERNARY_LIST.txt
