@@ -1,0 +1,6 @@
+begin
+integer a;
+a:=a+b;
+
+
+end
