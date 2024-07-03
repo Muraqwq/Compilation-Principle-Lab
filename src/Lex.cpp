@@ -2,14 +2,13 @@
 
 void Lex::readFile()
 {
-    // ´´½¨Ò»¸ö ifstream ¶ÔÏó²¢´ò¿ªÎÄ¼ş
     ifstream infile(file_path);
 
     std::stringstream buffer;
     buffer << infile.rdbuf();
     file = buffer.str();
 
-    // ¹Ø±ÕÎÄ¼ş
+    // ï¿½Ø±ï¿½ï¿½Ä¼ï¿½
     infile.close();
 
     return;
@@ -19,7 +18,8 @@ void Lex::getChar()
 {
     if (index < file.size())
         ch = file[index++];
-    else index++;
+    else
+        index++;
 };
 
 void Lex::getBC()
@@ -63,12 +63,12 @@ void Lex::Retract()
 
 void Lex::InsertId()
 {
-    id_list.insert({ strToken, id_index });
+    id_list.insert({strToken, id_index});
     id_index++;
 };
 void Lex::InsertConst()
 {
-    const_list.insert({ strToken, const_index });
+    const_list.insert({strToken, const_index});
     const_index++;
 };
 
@@ -76,10 +76,10 @@ void Lex::run()
 {
 
     readFile();
-    //cout << "´Ê·¨·ÖÎö½øĞĞÖĞ..." << endl;
+    // cout << "ï¿½Ê·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½..." << endl;
     while (index < file.size() - 1)
     {
-        //cout << "µ±Ç°Î»ÖÃ£º" << index << endl;
+        // cout << "ï¿½ï¿½Ç°Î»ï¿½Ã£ï¿½" << index << endl;
         int code;
         string value;
         strToken = "";
@@ -207,11 +207,11 @@ void Lex::run()
         else if (ch == '{')
         {
             writeOutput(LEFT_CURLY_BRACE, "-");
-            }
+        }
         else if (ch == '}')
         {
             writeOutput(RIGHT_CURLY_BRACE, "-");
-            }
+        }
         else
         {
             continue;
@@ -224,7 +224,7 @@ void Lex::run()
 void Lex::writeOutput(int code, string value)
 {
     symbols.push_back("( " + to_string(code) + ", " + value + " )");
-    res.push_back({ code, value });
+    res.push_back({code, value});
 };
 
 void Lex::output()
@@ -233,7 +233,7 @@ void Lex::output()
     std::ofstream outfile(output_path);
     if (!outfile.is_open())
     {
-        std::cerr << "ÎŞ·¨´ò¿ªÎÄ¼ş: " << std::endl;
+        std::cerr << "ï¿½Ş·ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½: " << std::endl;
         return;
     }
     int index = 0;
@@ -247,5 +247,5 @@ void Lex::output()
 
 void Lex::error(int pos, char ch)
 {
-    cerr << "´Ê·¨·ÖÎö´íÎó£¬ Î»ÖÃ£º " << to_string(pos) << ", ·ûºÅ£º" << ch << endl;
+    cerr << "ï¿½Ê·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Î»ï¿½Ã£ï¿½ " << to_string(pos) << ", ï¿½ï¿½ï¿½Å£ï¿½" << ch << endl;
 }

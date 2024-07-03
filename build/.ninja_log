@@ -1,0 +1,9 @@
+# ninja log v5
+4	1298	1719983189323372960	CMakeFiles/Parser_Frontend.dir/src/Reserve.cpp.o	601e595b271aa492
+3	1963	1719983189993372916	CMakeFiles/Parser_Frontend.dir/src/Lex.cpp.o	acbe42b0c70bea27
+5	2438	1719983190463372885	CMakeFiles/Parser_Frontend.dir/src/Translate.cpp.o	a4433e11fad115ad
+2	2869	1719983190893372854	CMakeFiles/Parser_Frontend.dir/main.cpp.o	50743a1d8aa4175b
+3	3213	1719983191243372830	CMakeFiles/Parser_Frontend.dir/src/Grammer.cpp.o	a8070aaf579ac31f
+4277	4863	1719983192893372714	../bin/Parser_Frontend	bf54bbf470f6b8e1
+4	4082	1719983192103372768	CMakeFiles/Parser_Frontend.dir/src/Parser.cpp.o	3577fc9fbbb272db
+2	4277	1719983192303372754	CMakeFiles/Parser_Frontend.dir/src/Constructor.cpp.o	523d73ba55d49c32

@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/mura/Documents/Learn/projects/Compilation-Principle-Lab/build",
+  "command": "/usr/bin/c++ -I/home/mura/Documents/Learn/projects/Compilation-Principle-Lab/./header -g -std=gnu++20 -o CMakeFiles/Parser_Frontend.dir/main.cpp.o -c /home/mura/Documents/Learn/projects/Compilation-Principle-Lab/main.cpp",
+  "file": "/home/mura/Documents/Learn/projects/Compilation-Principle-Lab/main.cpp"
+},
+{
+  "directory": "/home/mura/Documents/Learn/projects/Compilation-Principle-Lab/build",
+  "command": "/usr/bin/c++ -I/home/mura/Documents/Learn/projects/Compilation-Principle-Lab/./header -g -std=gnu++20 -o CMakeFiles/Parser_Frontend.dir/src/Constructor.cpp.o -c /home/mura/Documents/Learn/projects/Compilation-Principle-Lab/src/Constructor.cpp",
+  "file": "/home/mura/Documents/Learn/projects/Compilation-Principle-Lab/src/Constructor.cpp"
+},
+{
+  "directory": "/home/mura/Documents/Learn/projects/Compilation-Principle-Lab/build",
+  "command": "/usr/bin/c++ -I/home/mura/Documents/Learn/projects/Compilation-Principle-Lab/./header -g -std=gnu++20 -o CMakeFiles/Parser_Frontend.dir/src/Grammer.cpp.o -c /home/mura/Documents/Learn/projects/Compilation-Principle-Lab/src/Grammer.cpp",
+  "file": "/home/mura/Documents/Learn/projects/Compilation-Principle-Lab/src/Grammer.cpp"
+},
+{
+  "directory": "/home/mura/Documents/Learn/projects/Compilation-Principle-Lab/build",
+  "command": "/usr/bin/c++ -I/home/mura/Documents/Learn/projects/Compilation-Principle-Lab/./header -g -std=gnu++20 -o CMakeFiles/Parser_Frontend.dir/src/Lex.cpp.o -c /home/mura/Documents/Learn/projects/Compilation-Principle-Lab/src/Lex.cpp",
+  "file": "/home/mura/Documents/Learn/projects/Compilation-Principle-Lab/src/Lex.cpp"
+},
+{
+  "directory": "/home/mura/Documents/Learn/projects/Compilation-Principle-Lab/build",
+  "command": "/usr/bin/c++ -I/home/mura/Documents/Learn/projects/Compilation-Principle-Lab/./header -g -std=gnu++20 -o CMakeFiles/Parser_Frontend.dir/src/Parser.cpp.o -c /home/mura/Documents/Learn/projects/Compilation-Principle-Lab/src/Parser.cpp",
+  "file": "/home/mura/Documents/Learn/projects/Compilation-Principle-Lab/src/Parser.cpp"
+},
+{
+  "directory": "/home/mura/Documents/Learn/projects/Compilation-Principle-Lab/build",
+  "command": "/usr/bin/c++ -I/home/mura/Documents/Learn/projects/Compilation-Principle-Lab/./header -g -std=gnu++20 -o CMakeFiles/Parser_Frontend.dir/src/Reserve.cpp.o -c /home/mura/Documents/Learn/projects/Compilation-Principle-Lab/src/Reserve.cpp",
+  "file": "/home/mura/Documents/Learn/projects/Compilation-Principle-Lab/src/Reserve.cpp"
+},
+{
+  "directory": "/home/mura/Documents/Learn/projects/Compilation-Principle-Lab/build",
+  "command": "/usr/bin/c++ -I/home/mura/Documents/Learn/projects/Compilation-Principle-Lab/./header -g -std=gnu++20 -o CMakeFiles/Parser_Frontend.dir/src/Translate.cpp.o -c /home/mura/Documents/Learn/projects/Compilation-Principle-Lab/src/Translate.cpp",
+  "file": "/home/mura/Documents/Learn/projects/Compilation-Principle-Lab/src/Translate.cpp"
+}
+]

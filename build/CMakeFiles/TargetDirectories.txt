@@ -1,0 +1,3 @@
+/home/mura/Documents/Learn/projects/Compilation-Principle-Lab/build/CMakeFiles/Parser_Frontend.dir
+/home/mura/Documents/Learn/projects/Compilation-Principle-Lab/build/CMakeFiles/edit_cache.dir
+/home/mura/Documents/Learn/projects/Compilation-Principle-Lab/build/CMakeFiles/rebuild_cache.dir
