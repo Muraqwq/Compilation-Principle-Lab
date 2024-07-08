@@ -1,5 +1,5 @@
-.vscode
-bin
-build
+/.vscode/
+/bin/
+/build/
 ./LR_Generate.txt
 ./QUATERNARY_LIST.txt
